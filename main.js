@@ -1,5 +1,5 @@
 $(updateView)
 
 function updateView() {
-    alert("Using jQery!")
+    alert("I hope this works!")
 }
