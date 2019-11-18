@@ -1,5 +1,13 @@
+const BASE_URL = "https://zagster-service.herokuapp.com"
+
 $(updateView)
 
+
 function updateView() {
-    alert("I hope this works!")
+    $.getJSON(BASE_URL + "/rides/count/from/grc/to/osu_cascades" , updateRideCount)
+}
+
+function updateRideCount(data) {
+    numberOfRides = data.count
+    $("h2#rideCount").html(numberOfRides)
 }
