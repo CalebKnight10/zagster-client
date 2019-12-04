@@ -34,11 +34,11 @@ function updateChart() {
         data: {
             datasets: [{
                 label: 'Zagster Number of Rides Per Month in 2016',
-                backgroundColor: 'rgb(0, 0, 0)', 
+                BackgroundColor: 'rgb(0, 0, 0)', 
                 borderColor: 'rgb(255, 99, 132)',
                 data: my_data 
             }],
-            labels: ['GRC', 'Drake Park', 'Old Mill', 'Columbia and Simpson', 'G5', 'Galveston', 'Ten Barrel'],
+            labels: ['Drake Park', 'Galveston', 'Columbia and Simpson', 'GRC', 'G5', 'Ten Barrel', 'Old Mill'],
         },
         // Configuration options go here
         options: {
